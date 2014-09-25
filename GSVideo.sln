@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GSVideoLiveUI", "src\GSVideoLiveUI\GSVideoLiveUI.vcproj", "{F745DB5E-10C5-4FCA-9C13-769663644E47}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GSVideoOcx", "src\GSVideoOcx\GSVideoOcx.vcproj", "{AC27AD37-C737-4FC5-9894-353DFAC527D5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F745DB5E-10C5-4FCA-9C13-769663644E47} = {F745DB5E-10C5-4FCA-9C13-769663644E47}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GSImageUI", "src\GSImageEx\GSImageUI\GSImageUI.vcproj", "{35144EDB-6F74-4A8C-907A-9EF90BCEA581}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F745DB5E-10C5-4FCA-9C13-769663644E47}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F745DB5E-10C5-4FCA-9C13-769663644E47}.Debug|Win32.Build.0 = Debug|Win32
+		{F745DB5E-10C5-4FCA-9C13-769663644E47}.Release|Win32.ActiveCfg = Release|Win32
+		{F745DB5E-10C5-4FCA-9C13-769663644E47}.Release|Win32.Build.0 = Release|Win32
+		{AC27AD37-C737-4FC5-9894-353DFAC527D5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AC27AD37-C737-4FC5-9894-353DFAC527D5}.Debug|Win32.Build.0 = Debug|Win32
+		{AC27AD37-C737-4FC5-9894-353DFAC527D5}.Release|Win32.ActiveCfg = Release|Win32
+		{AC27AD37-C737-4FC5-9894-353DFAC527D5}.Release|Win32.Build.0 = Release|Win32
+		{35144EDB-6F74-4A8C-907A-9EF90BCEA581}.Debug|Win32.ActiveCfg = Debug|Win32
+		{35144EDB-6F74-4A8C-907A-9EF90BCEA581}.Debug|Win32.Build.0 = Debug|Win32
+		{35144EDB-6F74-4A8C-907A-9EF90BCEA581}.Release|Win32.ActiveCfg = Release|Win32
+		{35144EDB-6F74-4A8C-907A-9EF90BCEA581}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
